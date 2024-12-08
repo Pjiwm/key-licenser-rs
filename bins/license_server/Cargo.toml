@@ -1,0 +1,10 @@
+[package]
+name = "license_server"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+portal-pc-license-key = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+git-version = { workspace = true }

@@ -2,6 +2,13 @@
 resolver = "2"
 
 members = [
-  "license_server",
-  "license_validator"
+  "libs/*",
+  "bins/*",
+  # "tools/*"
 ]
+
+[workspace.dependencies]
+portal-pc-license-key = "0.3"
+tracing = "0.1"
+tracing-subscriber = "0.3"
+git-version = "0.3"

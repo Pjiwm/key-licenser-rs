@@ -1,8 +1,10 @@
 [package]
-name = "license_validator"
+name = "licenser"
 version = "0.1.0"
 edition = "2021"
 
 [dependencies]
 portal-pc-license-key = { workspace = true }
 tracing = { workspace = true }
+sha2 = "0.10"
+hmac = "0.12.1"
